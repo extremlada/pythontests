@@ -6,8 +6,8 @@ from database.DatabaseManager import DatabaseManager, PersonNotFoundError
 class TestDatabaseManager(unittest.TestCase):
 
     def setUp(self):
-        self.db_manager = DatabaseManager()
-        self.mock_observer = Mock()
+        self.db_manager = Mock()
+        self.db_manager.persons = Mock()
 
     def test_add_observer_existing_person(self):
         self.db_manager.db.data = [{'name': 'Alice', 'subscribers': []}]
