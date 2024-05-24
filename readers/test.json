@@ -1,0 +1,17 @@
+[
+    {
+        "Név": "Alice",
+        "Életkor": 30,
+        "Város": "New York"
+    },
+    {
+        "Név": "Bob",
+        "Életkor": 25,
+        "Város": "Los Angeles"
+    },
+    {
+        "Név": "Charlie",
+        "Életkor": 35,
+        "Város": "Chicago"
+    }
+]
